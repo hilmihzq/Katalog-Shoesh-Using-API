@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>projek 2 Katalog sepatu responsive</title>
+    <link rel="stylesheet"  href="./tampilancss/listsepatu.css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">    
+
+</head>
+<body>
+
+<!--header-->
+<header>
+    <a href="#" class="logo">Healme</a>
+
+    <ul class="navlist">
+<li><a href="home.html">Pria</a></li>
+
+<li><a href="./allhtml/women.html">Wanita</a></li>
+
+<li><a href="./allhtml/produk.html">Anak</a></li>
+
+<li><a href="brand.html">Brand</a></li>
+
+<!--<li><a href="./allhtml/produk.html">oke</a></li> -->
+
+<li><a href="promo.html">Promo</a></li>
+
+<!--<li><a href="promo.html">About</a></li>-->
+
+
+    </ul>
+
+
+    <div class="header-icons">
+<!--
+        <a href="#"><i class='bx bx-shopping-bag'></i></a>
+-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </div>
+
+</header>
+
+<br><br><br>
+
+<!--section 1-->
+
+
+
+
+
+<section class="promo-banner">
+    <div class="promo-content">
+
+        
+        <h6>ALL BRAND WE HAVE</h6>
+        <h4>100% OFF <br> LATE SPRING MEI</h4>
+        <a href="#" class="btn">Shop Now</a>
+        
+    </div>
+</section>
+
+
+
+
+<!--<section id="bijimeledak">
+    <h1 class="men_women_kid_heading" style="text-align: left; padding-left: 11vw;">All Shoesh</h1>
+</section> -->
+
+<!-- Product Grid Section -->
+<section class="product-grid" id="productGrid">
+    <p style="text-align:center; width: 100%;">Memuat data...</p>
+</section>
+
+<!-- Product Popup -->
+<div id="productPopup" class="popup">
+  <div class="popup-content">
+    <!--<span class="popup-back" id="backPopup">&#8592; Kembali</span>-->
+    <span class="popup-close" id="closePopup">&times;</span>
+    <h4 id="popupProductName"></h4>
+    <img id="popupProductImage" src="" alt="">
+    <p id="popupProductBrand"></p>
+    <p id="popupProductPrice"></p>
+    <p id="popupProductDescription"></p>
+  </div>
+</div>
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navList = document.querySelector('.navlist');
+    menuIcon.addEventListener('click', () => {
+        navList.classList.toggle('open');
+    });
+
+    fetch('https://raw.githubusercontent.com/Stupidism/goat-sneakers/master/api.json')
+        .then(res => res.json())
+        .then(data => {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+            data.sneakers.slice(0, 78).forEach(product => {
+                const div = document.createElement('div');
+                div.className = 'product';
+                div.innerHTML = `
+                    <img src="${product.main_picture_url}" alt="${product.name}">
+                    <h4>${product.name}</h4>
+                    <p>${product.brand_name}</p>
+                    <a href="#">Rp ${(product.retail_price_cents / 100 * 16000).toLocaleString('id-ID')}</a>
+                `;
+                div.onclick = () => showProductPopup(product);
+                grid.appendChild(div);
+            });
+        })
+        .catch(err => {
+            document.getElementById('productGrid').innerText = 'Gagal memuat data.';
+            console.error('Error fetching data:', err);
+        });
+
+    // ✅ Versi lengkap showProductPopup
+    function showProductPopup(product) {
+        document.getElementById('popupProductName').textContent = product.name;
+        document.getElementById('popupProductImage').src = product.main_picture_url;
+        document.getElementById('popupProductBrand').textContent = product.brand_name;
+        document.getElementById('popupProductPrice').textContent = `Rp ${(product.retail_price_cents / 100 * 16000).toLocaleString('id-ID')}`;
+
+        const descElement = document.getElementById('popupProductDescription');
+        descElement.innerHTML = `
+            ${product.story_html || "<i>Deskripsi tidak tersedia.</i>"}
+            <br><br>
+            <strong>Warna:</strong> ${getColorCircle(product.color)}<br>
+<strong>Detail Warna:</strong> ${getColorCircle(product.details)}<br>
+
+            <strong>Ukuran Tersedia:</strong> ${product.size_range.join(', ')}<br>
+            <strong>Silhouette:</strong> ${product.silhouette}<br>
+            <strong>Rilis:</strong> ${new Date(product.release_date).toLocaleDateString('id-ID')}<br>
+            <strong>Desainer:</strong> ${product.designer}<br>
+            <strong>Kondisi Sepatu:</strong> ${product.shoe_condition}<br>
+            <strong>Kondisi Box:</strong> ${product.box_condition}<br>
+            <strong>Material Atas:</strong> ${product.upper_material}
+        `;
+
+        document.getElementById('productPopup').style.display = 'flex';
+    }
+
+    document.getElementById('closePopup').onclick = () => {
+        document.getElementById('productPopup').style.display = 'none';
+    };
+</script>
+
+
+
+
+<!--Brands/footer-->
+
+<section class="Brand">
+    <div class="brand-content">
+        <div class="main">
+            <img src="./semuafoto/R.png">
+
+        </div>
+
+        <div class="main">
+            <img src="./semuafoto/adidas_PNG8.png">
+
+        </div>
+
+        <div class="main">
+            <img src="./semuafoto/Puma-Logo.png">
+
+        </div>
+
+        <div class="main">
+            <img src="./semuafoto/umbro-logo-png-transparent.png">
+
+        </div>
+
+        <div class="main">
+            <img src="./semuafoto/new-balance-logo-png-white-0.png">
+
+        </div>
+
+        <div class="main">
+            <img src="./semuafoto/Under_Armour-Logo.wine.png">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--footer-->
+<section class="contact" id="contact">
+    <div class="main-contact">
+        <h3>Healme</h3>
+        <h5>Let's Connect With Us</h5>
+        <div class="icons">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+    </div>
+
+    <div class="main-contact">
+        <h3>Explore</h3>
+        <li><a href="#pria">Pria</a></li>
+        <li><a href="#wanita">Wanita</a></li>
+        <li><a href="#anak">Anak</a></li>
+        <li><a href="#olahraga">Olahraga</a></li>
+        <li><a href="#brands">Brand</a></li>
+        <li><a href="#promo">Promo</a></li>
+    </div>
+
+    <div class="main-contact">
+        <h3>Our Services</h3>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Free Shipping</a></li>
+        <li><a href="#">Gift Cards</a></li>
+    </div>
+
+    <div class="main-contact">
+        <h3>Shopping</h3>
+        <li><a href="#">Shoesh Sports</a></li>
+        <li><a href="#">Shoesh Casual</a></li>
+        <li><a href="#">Clothing Store</a></li>
+        <li><a href="#">Trending Items</a></li>
+        <li><a href="#">Sale</a></li>
+    </div>
+</section>
+
+<!--Copy right nye-->
+<div class="last-text">
+    <p>Copy Right @ 2025 By Hilmi Haziq FTUI | This template is made by Hilmi Haziq </p>
+</div>
+
+<!--Scroll atas -->
+
+<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+
+<script src="./jsnya/cobajir.js"></script> 
+
+</body>
+</html>
