@@ -27,7 +27,10 @@ Ini adalah aplikasi katalog berbasis web yang menampilkan berbagai sepatu dari b
 
 ---
 
-## 🖼️ Tampilan Antarmuka
+## 🖼️ Tampilan Antarmuka 
+
+Akses Link berikut(https://drive.google.com/drive/folders/1IsvqR_RN6UH6eQE_wFQA8E0fA9ehtmfS?usp=sharing) untuk melihat prototype dan tampilanm ui nya berupa image 
+
 home.html
   <img width="2510" height="1394" alt="Image" src="https://github.com/user-attachments/assets/2823a814-1324-4fd6-9bc8-435260c9fe47" />
  <img width="1883" height="948" alt="Image" src="https://github.com/user-attachments/assets/5b7864fd-cf4b-486e-8a29-0dbc490ebc75" />
