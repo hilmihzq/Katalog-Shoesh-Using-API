@@ -28,10 +28,9 @@ Ini adalah aplikasi katalog berbasis web yang menampilkan berbagai sepatu dari b
 ---
 
 ## 🖼️ Tampilan Antarmuka
+- 🛒 home.html
+  <img width="2510" height="1394" alt="Image" src="https://github.com/user-attachments/assets/2823a814-1324-4fd6-9bc8-435260c9fe47" />
 
-| Beranda | Pria | Wanita |
-|--------|------|--------|
-| <img width="2510" height="1394" alt="Image" src="https://github.com/user-attachments/assets/2823a814-1324-4fd6-9bc8-435260c9fe47" /> |
 
 ---
 
