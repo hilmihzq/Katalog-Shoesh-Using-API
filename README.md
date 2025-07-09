@@ -34,27 +34,22 @@ Akses Link berikut(https://drive.google.com/drive/folders/1IsvqR_RN6UH6eQE_wFQA8
 Beberapa contoh UI&UX projek ini
 
 
-<img width="1888" height="945" alt="Image" src="https://github.com/user-attachments/assets/787ed2aa-1263-496b-aa86-7b978b414daf" />
+## 🖼️ Tampilan Proyek
 
-<img width="2505" height="1398" alt="Image" src="https://github.com/user-attachments/assets/7537e2d4-5b1f-447c-ab88-b5762fe9adb1" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/787ed2aa-1263-496b-aa86-7b978b414daf" width="600" alt="Homepage" />
+  <img src="https://github.com/user-attachments/assets/7537e2d4-5b1f-447c-ab88-b5762fe9adb1" width="600" alt="Product List" />
+  <img src="https://github.com/user-attachments/assets/b7400c0d-6b39-494b-81c2-756b0dda7152" width="600" alt="Product Detail" />
+  <img src="https://github.com/user-attachments/assets/767513f0-8ed0-403a-bbba-6d2b1530666d" width="400" alt="Search View" />
+  <img src="https://github.com/user-attachments/assets/26cfd57a-fab0-4e59-9c47-d38c83428cc8" width="600" alt="Promo Page" />
+  <img src="https://github.com/user-attachments/assets/94d15401-b09b-4868-9689-265a2b926b4f" width="600" alt="Men Category" />
+  <img src="https://github.com/user-attachments/assets/ebafb328-4ca7-44c8-963b-dfb0854ce9f5" width="600" alt="Women Category" />
+  <img src="https://github.com/user-attachments/assets/5be03237-e56f-465d-91c4-aa586f2609f0" width="600" alt="Nike Page" />
+  <img src="https://github.com/user-attachments/assets/4cadf161-b0c1-4eac-8458-ee826e36d48b" width="600" alt="Filter Page" />
+  <img src="https://github.com/user-attachments/assets/51de6d92-fb5d-4d1d-b284-73053b251d53" width="600" alt="Cart Page" />
+  <img src="https://github.com/user-attachments/assets/cbe55114-0c11-4c82-abbf-694b7f58e55f" width="600" alt="Checkout Page" />
+</p>
 
-<img width="2521" height="1404" alt="Image" src="https://github.com/user-attachments/assets/b7400c0d-6b39-494b-81c2-756b0dda7152" />
-
-<img width="1005" height="914" alt="Image" src="https://github.com/user-attachments/assets/767513f0-8ed0-403a-bbba-6d2b1530666d" />
-
-<img width="1889" height="952" alt="Image" src="https://github.com/user-attachments/assets/26cfd57a-fab0-4e59-9c47-d38c83428cc8" />
-
-<img width="1886" height="951" alt="Image" src="https://github.com/user-attachments/assets/94d15401-b09b-4868-9689-265a2b926b4f" />
-
-<img width="1884" height="946" alt="Image" src="https://github.com/user-attachments/assets/ebafb328-4ca7-44c8-963b-dfb0854ce9f5" />
-
-<img width="1893" height="949" alt="Image" src="https://github.com/user-attachments/assets/5be03237-e56f-465d-91c4-aa586f2609f0" />
-
-<img width="1882" height="941" alt="Image" src="https://github.com/user-attachments/assets/4cadf161-b0c1-4eac-8458-ee826e36d48b" />
-
-<img width="1881" height="930" alt="Image" src="https://github.com/user-attachments/assets/51de6d92-fb5d-4d1d-b284-73053b251d53" />
-
-<img width="1883" height="931" alt="Image" src="https://github.com/user-attachments/assets/cbe55114-0c11-4c82-abbf-694b7f58e55f" />
 ---
 
 ## 📁 Struktur Proyek
