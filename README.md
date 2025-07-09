@@ -32,7 +32,7 @@ home.html
   <img width="2510" height="1394" alt="Image" src="https://github.com/user-attachments/assets/2823a814-1324-4fd6-9bc8-435260c9fe47" />
  <img width="1883" height="948" alt="Image" src="https://github.com/user-attachments/assets/5b7864fd-cf4b-486e-8a29-0dbc490ebc75" />
 <img width="1886" height="947" alt="Image" src="https://github.com/user-attachments/assets/929a1789-bb94-4597-8055-0ac6814ae5f2" />
-
+<img width="1005" height="914" alt="Image" src="https://github.com/user-attachments/assets/767513f0-8ed0-403a-bbba-6d2b1530666d" />
 ---
 
 ## 📁 Struktur Proyek
