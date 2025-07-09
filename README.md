@@ -47,6 +47,10 @@ Beberapa contoh UI&UX projek ini
 <img width="1886" height="951" alt="Image" src="https://github.com/user-attachments/assets/94d15401-b09b-4868-9689-265a2b926b4f" />
 
 <img width="1884" height="946" alt="Image" src="https://github.com/user-attachments/assets/ebafb328-4ca7-44c8-963b-dfb0854ce9f5" />
+
+<img width="1893" height="949" alt="Image" src="https://github.com/user-attachments/assets/5be03237-e56f-465d-91c4-aa586f2609f0" />
+
+<img width="1882" height="941" alt="Image" src="https://github.com/user-attachments/assets/4cadf161-b0c1-4eac-8458-ee826e36d48b" />
 ---
 
 ## 📁 Struktur Proyek
