@@ -33,7 +33,7 @@ Akses Link berikut(https://drive.google.com/drive/folders/1IsvqR_RN6UH6eQE_wFQA8
 
 home.html
 <img width="1888" height="945" alt="Image" src="https://github.com/user-attachments/assets/787ed2aa-1263-496b-aa86-7b978b414daf" />
-<img width="1883" height="948" alt="Image" src="https://github.com/user-attachments/assets/5b7864fd-cf4b-486e-8a29-0dbc490ebc75" />
+<img width="2505" height="1398" alt="Image" src="https://github.com/user-attachments/assets/7537e2d4-5b1f-447c-ab88-b5762fe9adb1" />
 <img width="1886" height="947" alt="Image" src="https://github.com/user-attachments/assets/929a1789-bb94-4597-8055-0ac6814ae5f2" />
 <img width="1005" height="914" alt="Image" src="https://github.com/user-attachments/assets/767513f0-8ed0-403a-bbba-6d2b1530666d" />
 <img width="1889" height="952" alt="Image" src="https://github.com/user-attachments/assets/26cfd57a-fab0-4e59-9c47-d38c83428cc8" />
