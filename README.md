@@ -55,4 +55,28 @@ Beberapa contoh UI&UX projek ini
 ## 📁 Struktur Proyek
 
 
+### 📝 File HTML
+
+| 📄 File              | ✨ Deskripsi                                                              |
+|----------------------|---------------------------------------------------------------------------|
+| 🏠 `home.html`       | Halaman utama katalog sepatu.                                             |
+| 🏷️ `brand.html`     | Menampilkan semua brand sepatu.                                          |
+| 👠 `cewestyle.html` | Katalog sepatu wanita.                                                    |
+| 👞 `cowostyle.html` | Katalog sepatu pria.                                                      |
+| 🎁 `promo.html`     | Promo dan diskon sepatu.                                                  |
+| 👟 `Nike.html`      | Katalog sepatu brand Nike.                                                |
+| 🔍 `peritems.html`  | Detail per sepatu (nama, harga, gambar, deskripsi).                        |
+
+---
+
+### 📁 Folder
+
+| 📁 Folder            | 🧾 Isi/Deskripsi                                                         |
+|----------------------|-------------------------------------------------------------------------|
+| 📦 `allhtml/`        | Koleksi semua file HTML (opsional).                                     |
+| 🎨 `cssbotstraps/`   | File CSS dari Bootstrap dan eksternal lainnya.                          |
+| 🧠 `jsnya/`          | JavaScript untuk filter, pencarian, atau fitur interaktif lainnya.      |
+| 💅 `tampilancss/`    | CSS kustom untuk desain halaman web.                                    |
+| 🖼️ `semuafoto/`      | Gambar sepatu, ikon, dan elemen visual lainnya.                         |
+| 🎬 `semuavideo/`     | File video (promo atau demo produk).                                    |
 
